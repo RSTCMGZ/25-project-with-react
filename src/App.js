@@ -1,5 +1,5 @@
 import './App.css';
-import ImageSlider from './components/img-slider/ImageSlider';
+// import ImageSlider from './components/img-slider/ImageSlider';
 // import Accordian from './components/accordion';
 // import StartRating from './components/start-rating/StartRating';
 
@@ -9,7 +9,7 @@ function App() {
       {/* Accordian component */}
       {/* <Accordian /> */}
       {/* <StartRating noOfStarts={10} /> */}
-      <ImageSlider url={"https://picsum.photos/v2/list"} page={'1'} limit={'10'} />
+      {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={'1'} limit={'10'} /> */}
     </div>
   );
 }
