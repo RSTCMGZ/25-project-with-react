@@ -1,5 +1,6 @@
 import './App.css';
-import Navigation from './components/navigation-menu/Navigation'
+import TreeView from './components/navigation-menu/Navigation';
+import menus from './components/navigation-menu/data';
 // import LoadMoreData from './components/load-more-data/index.jsx';
 
 // import ImageSlider from './components/img-slider/ImageSlider';
@@ -14,7 +15,7 @@ function App() {
       {/* <StartRating noOfStarts={10} /> */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={'1'} limit={'10'} /> */}
       {/* <LoadMoreData /> */}
-      <Navigation />
+      <TreeView menus={menus} />
     </div>
   );
 }

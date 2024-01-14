@@ -1,9 +1,10 @@
-import React from 'react'
+import MenuList from "./menu-list";
+import './style.css'
 
-function Navigation() {
+export default function TreeView({ menus = [] }) {
     return (
-        <div>Navigation</div>
-    )
+        <div className="tree-view-container">
+            <MenuList list={menus} />
+        </div>
+    );
 }
-
-export default Navigation
