@@ -1,5 +1,6 @@
 import './App.css';
-import LoadMoreData from './components/load-more-data/index.jsx';
+import Navigation from './components/navigation-menu/Navigation'
+// import LoadMoreData from './components/load-more-data/index.jsx';
 
 // import ImageSlider from './components/img-slider/ImageSlider';
 // import Accordian from './components/accordion';
@@ -12,7 +13,8 @@ function App() {
       {/* <Accordian /> */}
       {/* <StartRating noOfStarts={10} /> */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={'1'} limit={'10'} /> */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+      <Navigation />
     </div>
   );
 }
